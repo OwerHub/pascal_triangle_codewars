@@ -1,6 +1,6 @@
 function loadpage() {
 
-let flat = 6
+let flat = 9
 let n= flat; 		// Ezt csak azért, hogy n-el lehessen dolgozni, mint a példában.
 let triangle = [];
 
@@ -31,6 +31,7 @@ for (let row = 0; row < n; row++) {
 } //forEnd
 
 			let solution = triangle.flat(); // hátha ez a baja a CW-nek
+			console.log(triangle)
 			console.log(solution);
 
 			} // end
