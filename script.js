@@ -26,12 +26,12 @@ for (let row = 0; row < n; row++) {
 				}
 			}
 			//console.log("temp" +temp)
-			triangle.push(temp)
+			triangle.push(temp);
 	}
 } //forEnd
 
-			let solution = triangle.flat();
-			console.log(solution)
+			let solution = triangle.flat(); // hátha ez a baja a CW-nek
+			console.log(solution);
 
 			} // end
 
